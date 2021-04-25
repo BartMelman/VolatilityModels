@@ -2,13 +2,18 @@
 
 ### ARCH
 
+```math
+a=1
+y_t & = \epsilon_t 
+```
+
 $$
-\begin{equation}
-    y_t & = \epsilon_t \\
-    \epsilon_t & = \sigma_t z_t \\
-    z_t & \sim N(0,1) \\
-    \sigma_t^2 & = \omega + \alpha \epsilon_{t-1}^2 
-\end{equation}
+\begin{align*}
+    y_t = \epsilon_t \\
+    \epsilon_t = \sigma_t z_t \\
+    z_t \sim N(0,1) \\
+    \sigma_t^2 = \omega + \alpha \epsilon_{t-1}^2 
+\end{align*}
 $$
 
 $$
