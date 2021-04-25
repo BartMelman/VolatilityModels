@@ -17,8 +17,8 @@ $$
 $$
 
 $$
-\begin{aligned}
+\begin{align*}
     p(y) & = \prod_{t=1}^T \frac{1}{\sqrt{2\pi}\sigma_t} e^{-\frac{1}{2} \frac{y_t^2}{\sigma_t^2}} \\
     \log{p(y)} & = \sum_{t=1}^T -\frac{1}{2} \log{2\pi} - \log{\sigma_t} - \frac{1}{2}\frac{y_t^2}{\sigma_t^2} \\
-\end{aligned}
+\end{align*}
 $$
