@@ -2,12 +2,12 @@ import numpy as np
 import scipy.stats as st
 
 
-def pricesToReturns(prices, returnMethod='relative'):
-    if returnMethod == 'absolute':
+def pricesToReturns(prices, method='relative'):
+    if method == 'absolute':
         returns = prices.diff()
-    elif returnMethod == 'relative':
+    elif method == 'relative':
         returns = prices.pct_change()
-    elif returnMethod == 'log':
+    elif method == 'log':
         returns = np.log(1+prices.pct_change())
     else:
         raise ValueError('method not in options', method)
